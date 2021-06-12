@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { ApikeyComponent } from './apikey/apikey.component';
+import { BodyComponent } from './body/body.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ApikeyComponent } from './apikey/apikey.component';
     HomeComponent,
     FooterComponent,
     MainPageComponent,
-    ApikeyComponent
+    ApikeyComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,
